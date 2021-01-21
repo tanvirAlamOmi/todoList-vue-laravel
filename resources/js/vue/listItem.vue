@@ -22,7 +22,6 @@ export default {
             })
             .then( response=>{
                 if(response.status == 200 ){
-                    console.log("changed status");
                     this.$emit('itemChanged')
                 }
             })
